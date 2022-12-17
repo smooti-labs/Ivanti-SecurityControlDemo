@@ -8,7 +8,7 @@
 <!-- PROJECT LOGO -->
 <p align="center" style="text-align: center">
  <a href="https://github.com/Smooti-PowerShell/Disable-InactiveDomainAccount">
-  <img src="./images/science.png" width="20%">
+  <img src="./Images/science.png" width="20%">
  </a><br />
 </p>
 
