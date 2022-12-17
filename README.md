@@ -38,6 +38,8 @@
 
 ### Built With
 
+[![Vagrant][vagrant.com]][vagrant-url]
+
 [![PowerShell][powershell.com]][powershell-url]
 
 <!-- Installation -->
@@ -77,5 +79,7 @@ Don't forget to give the project a :star:!
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[powershell.com]: https://img.shields.io/badge/PowerShell-0769AD?style=badge&logo=powershell&logoColor=blue&color=black
+[powershell.com]: https://img.shields.io/badge/PowerShell-0769AD?style=badge&logo=powershell&logoColor=#5391FE
 [powershell-url]: https://docs.microsoft.com/en-us/powershell/
+[vagrant.com]: https://img.shields.io/badge/Vagrant-0769AD?style=badge&logo=vagrant&logoColor=#1868F2
+[vagrant-url]: https://www.vagrantup.com/
