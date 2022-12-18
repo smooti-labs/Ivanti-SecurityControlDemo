@@ -18,11 +18,11 @@ Vagrant.configure("2") do |config|
   config.vm.network "private_network", ip: $domain_ip_address
 
   # SECTION: Provisioners
-  config.vm.provision "Create Forrest", type: "shell", path: "Scripts/Invoke-Forrest.ps1", args: [$domain, $password]
-  config.vm.provision "Reboot Machine", type: "shell", reboot: true
-  config.vm.provision "Configure Admin Supreme", type: "shell", path: "Scripts/Configure-AdminSupreme.ps1", args: [$username]
-  config.vm.provision "Configure Domain", type: "shell", path: "Scripts/Configure-Domain.ps1"
-  config.vm.provision "Create Test Users", type: "shell", path: "Scripts/New-ADTestUsers.ps1", args: [$password]
+  config.vm.provision "Create-Forrest", type: "shell", path: "Scripts/Invoke-Forrest.ps1", args: [$domain, $password]
+  config.vm.provision "Reboot-Machine", type: "shell", reboot: true
+  config.vm.provision "Configure-Admin-Supreme", type: "shell", path: "Scripts/Configure-AdminSupreme.ps1", args: [$username]
+  config.vm.provision "Configure-Domain", type: "shell", path: "Scripts/Configure-Domain.ps1"
+  config.vm.provision "Create-Test-Users", type: "shell", path: "Scripts/New-ADTestUsers.ps1", args: [$password]
   # !SECTION: Provisioners
 
 end
